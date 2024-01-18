@@ -21,6 +21,7 @@ header{
 .container{
   max-width: 80%;
   margin: 0 auto;
+  /* display: flex; */
 }
 
 .debug{
@@ -36,10 +37,8 @@ nav{
   padding: 0 10px;
   
 }
-nav div{
-  /* display: flex; */
-  
-}
+
+
 nav div ul{
   list-style: none;
   display: flex;
@@ -76,3 +75,101 @@ nav div ul li{
   width: 950px;
   background-color: #EE82EE;
 }
+
+section{
+  height: 620px;
+  
+}
+
+.img{
+  height: 500px;
+  width: 70%;
+  background-color: #2A8FF7;
+}
+
+.testo{
+  height: 500px;
+  width: 30%;
+  background-color: #F6BFCA
+}
+
+.sezione{
+  height: 620px;
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+}
+
+.reverse{
+  flex-direction: row-reverse;
+}
+
+section.sfondo-grigio{
+  background-color: #D3D3D3
+}
+
+section.big-section{
+  height: 1045px;
+}
+
+.big-img{
+  width:100% ;
+  height: 935px;
+  background-color: #3F8B24;
+}
+
+.sezione-grande{
+  height: 1045px;
+  display: flex;
+  align-items: center;
+}
+
+.sfondo-scuro{
+  background-color: #23272A;
+}
+
+.sezione-stretch{
+  height:620px ;
+display: flex;
+padding-top: 5px;
+}
+
+
+
+.colonna{
+  width: 370px;
+  height: 580px;
+  background-color: #F08080;
+  border: 1px dotted black;
+}
+
+.colonne{
+  width: 215px;
+  height: 580px;
+  border: 1px dotted white;
+  background-color: #4DB3AB;
+}
+
+footer{
+  height: 115px;
+  border-top: 1px solid white;
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer{
+  background-color: #7CF8D3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 83px;
+  width: 100%;
+  padding: 0 10px;
+  
+}
+
+.logo-footer, .registrazione{
+  background-color: #F5B6C1;
+  border: 1px dotted black ;
+}
+
